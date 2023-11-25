@@ -5,4 +5,4 @@ FROM dragonx943/bot:c.ai
 EXPOSE 46265
 
 # Start
-RUN ["cd", "&&", "/root/bot/CharacterAI_Discord_Bot"]
+RUN ["/root/bot/CharacterAI_Discord_Bot"]
